@@ -44,5 +44,19 @@
     "arrets": 11,
     "listeArrets": ["Yoff Village", "Aeroport LSS",
       "Parcelles U17", "Grand Yoff", "HLM", "Sandaga"]
+  },
+  {
+    "id": 7, "numero": "45",
+    "depart": "Rufisque", "arrivee": "Plateau",
+    "arrets": 20,
+    "listeArrets": ["Rufisque", "Thiaroye", "Pikine", "Guediawaye",
+     "Grand Yoff", "Parcelles", "Plateau"]
+  },
+  {
+    "id": 8, "numero": "18",
+    "depart": "Yeumbeul", "arrivee": "Colobane",
+    "arrets": 15,
+    "listeArrets": ["Yeumbeul", "Thiaroye", "Hann", "Fann", "Colobane"]
   }
+  
 ]
