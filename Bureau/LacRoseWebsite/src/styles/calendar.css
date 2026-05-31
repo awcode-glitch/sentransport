@@ -1,0 +1,86 @@
+/* Custom styling for react-day-picker calendar */
+
+.booking-calendar .rdp {
+  --rdp-cell-size: 40px;
+  --rdp-accent-color: #ff2d7a;
+  --rdp-background-color: #fff0f6;
+  margin: 0;
+}
+
+.booking-calendar .rdp-months {
+  justify-content: center;
+}
+
+.booking-calendar .rdp-month {
+  width: 100%;
+}
+
+.booking-calendar .rdp-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.booking-calendar .rdp-caption_label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.booking-calendar .rdp-head_cell {
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: #6b7280;
+  text-transform: uppercase;
+}
+
+.booking-calendar .rdp-cell {
+  padding: 0.125rem;
+}
+
+.booking-calendar .rdp-day {
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.booking-calendar .rdp-day:hover:not(.rdp-day_disabled):not(.rdp-day_selected) {
+  background-color: #fce7f3;
+  color: #ff2d7a;
+}
+
+.booking-calendar .rdp-day_selected {
+  background: linear-gradient(135deg, #ff2d7a 0%, #ec4899 100%);
+  color: white;
+  font-weight: 600;
+}
+
+.booking-calendar .rdp-day_disabled {
+  color: #d1d5db;
+  cursor: not-allowed;
+}
+
+.booking-calendar .rdp-day_today:not(.rdp-day_selected) {
+  font-weight: 600;
+  color: #ff2d7a;
+  background-color: transparent;
+}
+
+.booking-calendar .rdp-nav_button {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+}
+
+.booking-calendar .rdp-nav_button:hover {
+  background-color: #fce7f3;
+}
+
+.booking-calendar .rdp-nav_button svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  color: #6b7280;
+}

@@ -1,0 +1,43 @@
+
+  <!DOCTYPE html>
+  <html lang="fr">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Lac Rose Adventures | Réservations d’activités au Sénégal</title>
+      <meta name="description" content="Réservez vos balades en quad, cheval, dromadaire et pirogue au Lac Rose. Des expériences uniques au Sénégal avec réservation sécurisée." />
+      <meta name="keywords" content="Lac Rose, tourisme Sénégal, quad, cheval, dromadaire, pirogue, réservation, excursions" />
+      <meta name="author" content="Lac Rose Adventures" />
+      <meta property="og:title" content="Lac Rose Adventures | Réservations d’activités au Sénégal" />
+      <meta property="og:description" content="Réservez vos balades en quad, cheval, dromadaire et pirogue au Lac Rose. Des expériences uniques au Sénégal avec réservation sécurisée." />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://lacrose.example.com" />
+      <meta property="og:image" content="/src/imports/image-3.png" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Lac Rose Adventures | Réservations d’activités au Sénégal" />
+      <meta name="twitter:description" content="Réservez vos balades en quad, cheval, dromadaire et pirogue au Lac Rose. Des expériences uniques au Sénégal avec réservation sécurisée." />
+      <meta name="twitter:image" content="/src/imports/image-3.png" />
+      <style>html, body { height: 100%; margin: 0; } #root { height: 100%; }</style>
+      <!-- Pour activer Google Analytics, définissez VITE_GA_ID dans .env -->
+      <script>
+        const gaId = '%VITE_GA_ID%';
+        if (gaId) {
+          const script = document.createElement('script');
+          script.async = true;
+          script.src = `https://www.googletagmanager.com/gtag/js?id=${gaId}`;
+          document.head.appendChild(script);
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);} 
+          window.gtag = window.gtag || gtag;
+          window.gtag('js', new Date());
+          window.gtag('config', gaId);
+        }
+      </script>
+    </head>
+
+    <body>
+      <div id="root"></div>
+      <script type="module" src="/src/main.tsx"></script>
+    </body>
+  </html>
+  
