@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 
-const WEB3FORMS_KEY = 'WEB3FORMS_KEY';
+const WEB3FORMS_KEY = import.meta.env.VITE_WEB3FORMS_KEY ?? '';
 
 export function LocalisationContact() {
   const { tr } = useLanguage();
