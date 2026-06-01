@@ -76,7 +76,7 @@ const t = {
     packsData: [
       {
         name: 'Pack Spécial', subtitle: 'Adrénaline & Liberté',
-        features: ['Balade en Quad — 1h', 'Balade en Pirogue — 30mn', 'Balade à Cheval ou Dromadaire — 15mn'],
+        features: ['Balade en Quad — 1h', 'Balade en Pirogue — 30mn', 'Balade à Cheval ou Dromadaire — 20mn'],
       },
       {
         name: 'Pack Découverte', subtitle: "L'essentiel du Lac Rose",
@@ -157,7 +157,7 @@ const t = {
     packsData: [
       {
         name: 'Special Package', subtitle: 'Adrenaline & Freedom',
-        features: ['Quad Ride — 1h', 'Pirogue Ride — 30min', 'Horse or Camel Ride — 15min'],
+        features: ['Quad Ride — 1h', 'Pirogue Ride — 30min', 'Horse or Camel Ride — 20min'],
       },
       {
         name: 'Discovery Package', subtitle: 'The Essentials of Pink Lake',
@@ -238,7 +238,7 @@ const t = {
     packsData: [
       {
         name: 'الباقة الخاصة', subtitle: 'الأدرينالين والحرية',
-        features: ['جولة دراجة رباعية — 1 ساعة', 'جولة قارب — 30 دقيقة', 'جولة خيل أو جمل — 15 دقيقة'],
+        features: ['جولة دراجة رباعية — 1 ساعة', 'جولة قارب — 30 دقيقة', 'جولة خيل أو جمل — 20 دقيقة'],
       },
       {
         name: 'باقة الاكتشاف', subtitle: 'أساسيات البحيرة الوردية',
@@ -319,7 +319,7 @@ const t = {
     packsData: [
       {
         name: '特别套餐', subtitle: '肾上腺素与自由',
-        features: ['越野车骑行 — 1小时', '独木舟骑行 — 30分钟', '骑马或骆驼 — 15分钟'],
+        features: ['越野车骑行 — 1小时', '独木舟骑行 — 30分钟', '骑马或骆驼 — 20分钟'],
       },
       {
         name: '探索套餐', subtitle: '粉红湖精华',
