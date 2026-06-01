@@ -1,4 +1,4 @@
-import { Instagram, Heart } from 'lucide-react';
+import { Instagram, Heart, Clock, Phone, MessageCircle } from 'lucide-react';
 import { Link } from 'react-router';
 import { useLanguage } from '../context/LanguageContext';
 
@@ -42,6 +42,24 @@ export function Footer() {
             <ul className="space-y-2 text-gray-400">
               <li><Link to="/privacy" className="hover:text-[#ff2d7a] transition-colors">{tr.footer.privacy}</Link></li>
               <li><a href="#faq" className="hover:text-[#ff2d7a] transition-colors">{tr.footer.faq}</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="font-semibold mb-4">Contact</h4>
+            <ul className="space-y-3 text-gray-400">
+              <li className="flex items-center gap-2">
+                <Clock className="w-4 h-4 text-[#ff2d7a] flex-shrink-0" />
+                <span>Lun – Dim : 9h00 – 20h00</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <Phone className="w-4 h-4 text-[#ff2d7a] flex-shrink-0" />
+                <a href="tel:+221711358759" className="hover:text-[#ff2d7a] transition-colors">+221 71 135 87 59</a>
+              </li>
+              <li className="flex items-center gap-2">
+                <MessageCircle className="w-4 h-4 text-green-400 flex-shrink-0" />
+                <a href="https://wa.me/221711358759" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 transition-colors">WhatsApp</a>
+              </li>
             </ul>
           </div>
 
