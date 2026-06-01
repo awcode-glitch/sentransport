@@ -40,8 +40,6 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4">{tr.footer.informations}</h4>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-[#ff2d7a] transition-colors">{tr.footer.about}</a></li>
-              <li><a href="#" className="hover:text-[#ff2d7a] transition-colors">{tr.footer.terms}</a></li>
               <li><Link to="/privacy" className="hover:text-[#ff2d7a] transition-colors">{tr.footer.privacy}</Link></li>
               <li><a href="#faq" className="hover:text-[#ff2d7a] transition-colors">{tr.footer.faq}</a></li>
             </ul>
