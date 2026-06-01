@@ -74,6 +74,10 @@ export function Footer() {
                 <a href="tel:+221711358759" className="hover:text-[#ff2d7a] transition-colors">+221 71 135 87 59</a>
               </li>
               <li className="flex items-center gap-2">
+                <Phone className="w-4 h-4 text-[#ff2d7a] flex-shrink-0" />
+                <a href="tel:+221781606249" className="hover:text-[#ff2d7a] transition-colors">+221 78 160 62 49</a>
+              </li>
+              <li className="flex items-center gap-2">
                 <MessageCircle className="w-4 h-4 text-green-400 flex-shrink-0" />
                 <a href="https://wa.me/221711358759" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 transition-colors">WhatsApp</a>
               </li>

@@ -22,6 +22,7 @@ export function Contact() {
             </div>
             <h3 className="font-semibold text-lg mb-2">{tr.contact.phone}</h3>
             <a href="tel:+221711358759" className="text-pink-300 hover:text-pink-200 transition-colors">+221 71 135 87 59</a>
+            <a href="tel:+221781606249" className="text-pink-300 hover:text-pink-200 transition-colors">+221 78 160 62 49</a>
           </div>
 
           <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:bg-white/10 transition-all">

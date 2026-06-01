@@ -75,12 +75,13 @@ export function Navbar({ onOpenReservation }: NavbarProps) {
 
           <div className="hidden md:flex items-center gap-3">
             <LanguageSwitcher />
-            <a
-              href="tel:+221711358759"
-              className="flex items-center gap-2 px-6 py-3 bg-[#ff2d7a] text-white rounded-full hover:bg-[#e01d6a] transition-all shadow-lg hover:shadow-xl"
-            >
+            <a href="tel:+221711358759" className="flex items-center gap-2 px-6 py-3 bg-[#ff2d7a] text-white rounded-full hover:bg-[#e01d6a] transition-all shadow-lg hover:shadow-xl">
               <Phone className="w-4 h-4" />
               +221 71 135 87 59
+            </a>
+            <a href="tel:+221781606249" className="flex items-center gap-2 px-6 py-3 bg-[#ff2d7a] text-white rounded-full hover:bg-[#e01d6a] transition-all shadow-lg hover:shadow-xl">
+              <Phone className="w-4 h-4" />
+              +221 78 160 62 49
             </a>
           </div>
 
