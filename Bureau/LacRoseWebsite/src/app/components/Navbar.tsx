@@ -33,11 +33,11 @@ export function Navbar({ onOpenReservation }: NavbarProps) {
               <li role="none">
                 <button
                   type="button"
-                  onClick={() => scrollToSection('temoignages')}
+                  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                   className="bg-transparent text-gray-700 hover:text-[#ff2d7a] transition-colors px-4 py-2 rounded-full"
                   style={{ outline: 'none', border: 'none' }}
                 >
-                  Témoignages
+                  Accueil
                 </button>
               </li>
               <li role="none">
@@ -99,11 +99,11 @@ export function Navbar({ onOpenReservation }: NavbarProps) {
         <div className="md:hidden bg-white border-t border-gray-200">
           <div className="px-4 py-4 space-y-3">
             <a
-              href="#temoignages"
+              href="#"
               className="block px-4 py-2 text-gray-700 hover:bg-pink-50 hover:text-[#ff2d7a] rounded-lg transition-colors"
-              onClick={() => setIsMenuOpen(false)}
+              onClick={() => { setIsMenuOpen(false); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
             >
-              Témoignages
+              Accueil
             </a>
             <button
               type="button"
