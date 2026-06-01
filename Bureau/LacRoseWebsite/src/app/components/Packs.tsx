@@ -8,7 +8,7 @@ import img4 from '../../imports/image-4.png';
 import img5 from '../../imports/image-5.png';
 
 const packsStatic = [
-  { id: 0, image: img3, overlayColor: 'from-gray-900/60 to-gray-700/30', price: '20,000', highlight: false, color: 'border-gray-200',                         buttonColor: 'bg-gray-900 hover:bg-gray-800' },
+  { id: 0, image: img3, overlayColor: 'from-gray-900/60 to-gray-700/30', price: '19,500', originalPrice: '20,000', highlight: false, color: 'border-gray-200', buttonColor: 'bg-gray-900 hover:bg-gray-800' },
   { id: 1, image: img4, overlayColor: 'from-[#ff2d7a]/70 to-pink-400/30', price: '24,500', highlight: true,  color: 'border-[#ff2d7a] ring-4 ring-pink-100',   buttonColor: 'bg-gradient-to-r from-[#ff2d7a] to-pink-600 hover:shadow-xl', badge: true },
   { id: 2, image: img5, overlayColor: 'from-[#f97316]/70 to-orange-400/30',price: '25,000', highlight: false, color: 'border-[#f97316] ring-2 ring-orange-100', buttonColor: 'bg-gradient-to-r from-[#f97316] to-orange-600 hover:shadow-xl' },
 ];
@@ -74,13 +74,19 @@ export function Packs() {
               {/* Contenu */}
               <div className="p-8">
                 <div className="text-center mb-6">
+                  {'originalPrice' in pack && pack.originalPrice && (
+                    <div className="flex items-baseline justify-center gap-2 mb-1">
+                      <span className="text-2xl font-medium text-gray-400 line-through">{pack.originalPrice as string}</span>
+                      <span className="text-xs bg-red-500 text-white px-2 py-0.5 rounded-full font-bold">PROMO</span>
+                    </div>
+                  )}
                   <div className="flex items-baseline justify-center gap-2 mb-1">
                     <span className="text-5xl font-bold text-gray-900">{pack.price}</span>
                     <span className="text-xl text-gray-600">FCFA</span>
                   </div>
                   <p className="text-gray-500 text-sm">{tr.packs.perPerson}</p>
                   {pack.id === 0 && (
-                    <div className="mt-2 inline-flex items-center gap-1 bg-orange-50 border border-orange-200 text-orange-600 text-xs font-semibold px-3 py-1 rounded-full">
+                    <div className="mt-3 inline-flex items-center gap-2 bg-gradient-to-r from-orange-50 to-yellow-50 border-2 border-orange-300 text-orange-700 text-sm font-bold px-4 py-2 rounded-xl shadow-sm">
                       👫 Duo : 35 000 FCFA
                     </div>
                   )}
