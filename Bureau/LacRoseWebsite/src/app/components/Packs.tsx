@@ -6,11 +6,13 @@ import { useLanguage } from '../context/LanguageContext';
 import img3 from '../../imports/image-3.png';
 import img4 from '../../imports/image-4.png';
 import img5 from '../../imports/image-5.png';
+import img6 from '../../imports/image-6.png';
 
 const packsStatic = [
   { id: 0, image: img3, overlayColor: 'from-gray-900/60 to-gray-700/30', price: '19,500', originalPrice: '20,000', highlight: false, color: 'border-gray-200', buttonColor: 'bg-gray-900 hover:bg-gray-800' },
   { id: 1, image: img4, overlayColor: 'from-[#ff2d7a]/70 to-pink-400/30', price: '23,500', originalPrice: '24,500', highlight: true, color: 'border-[#ff2d7a] ring-4 ring-pink-100', buttonColor: 'bg-gradient-to-r from-[#ff2d7a] to-pink-600 hover:shadow-xl', badge: true },
-  { id: 2, image: img5, overlayColor: 'from-[#f97316]/70 to-orange-400/30',price: '25,000', highlight: false, color: 'border-[#f97316] ring-2 ring-orange-100', buttonColor: 'bg-gradient-to-r from-[#f97316] to-orange-600 hover:shadow-xl' },
+  { id: 2, image: img5, overlayColor: 'from-[#f97316]/70 to-orange-400/30', price: '25,000', highlight: false, color: 'border-[#f97316] ring-2 ring-orange-100', buttonColor: 'bg-gradient-to-r from-[#f97316] to-orange-600 hover:shadow-xl' },
+  { id: 3, image: img6, overlayColor: 'from-rose-900/70 to-red-800/30',    price: '35,000', highlight: false, color: 'border-rose-400 ring-2 ring-rose-100',   buttonColor: 'bg-gradient-to-r from-rose-700 to-red-700 hover:shadow-xl' },
 ];
 
 export function Packs() {
@@ -39,7 +41,7 @@ export function Packs() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto items-start">
+        <div className="grid sm:grid-cols-2 xl:grid-cols-4 gap-8 max-w-7xl mx-auto items-start">
           {packs.map((pack) => (
             <div
               key={pack.id}
@@ -92,6 +94,12 @@ export function Packs() {
                   )}
                 </div>
 
+                {pack.id === 3 && (
+                  <div className="mb-4 p-3 bg-rose-50 border border-rose-200 rounded-xl text-xs text-rose-700 text-center font-medium">
+                    📍 Lac Rose – Sénégal<br/>
+                    🚌 Départ : Dakar &nbsp;|&nbsp; ⏱️ Durée : 1 Journée
+                  </div>
+                )}
                 <div className="space-y-3 mb-8">
                   {pack.features.map((feature, index) => (
                     <div key={index} className="flex items-start gap-3">

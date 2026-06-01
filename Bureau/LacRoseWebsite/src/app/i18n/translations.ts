@@ -86,6 +86,10 @@ const t = {
         name: 'Pack Premium', subtitle: "L'expérience complète",
         features: ['Balade en Quad — 1h', 'Balade en Pirogue — 30mn', 'Balade à Cheval ou Dromadaire — 20mn', 'Transport Aller/Retour (en option)', "Déjeuner à l'Hôtel (en option)", 'Détente en Piscine (en option)'],
       },
+      {
+        name: 'Pack Journée Complète', subtitle: 'La Totale au Lac Rose',
+        features: ['Rando en Quad', 'Pirogue sur le Lac Rose', 'Promenade à Cheval', 'Balade en Dromadaire', 'Photos Souvenirs', 'Déjeuner (en option)', 'Détente à la Piscine (en option)'],
+      },
     ],
   },
 
@@ -166,6 +170,10 @@ const t = {
       {
         name: 'Premium Package', subtitle: 'The Complete Experience',
         features: ['Quad Ride — 1h', 'Pirogue Ride — 30min', 'Horse or Camel Ride — 20min', 'Round-trip Transport (optional)', 'Hotel Lunch (optional)', 'Pool Relaxation (optional)'],
+      },
+      {
+        name: 'Full Day Package', subtitle: 'The Complete Pink Lake Experience',
+        features: ['Quad Trek', 'Pirogue on Pink Lake', 'Horse Ride', 'Camel Ride', 'Souvenir Photos', 'Lunch (optional)', 'Pool Relaxation (optional)'],
       },
     ],
   },
@@ -248,6 +256,10 @@ const t = {
         name: 'الباقة المميزة', subtitle: 'التجربة الكاملة',
         features: ['جولة دراجة رباعية — 1 ساعة', 'جولة قارب — 30 دقيقة', 'جولة خيل أو جمل — 20 دقيقة', 'نقل ذهاب وإياب (اختياري)', 'غداء في الفندق (اختياري)', 'الاسترخاء في المسبح (اختياري)'],
       },
+      {
+        name: 'باقة اليوم الكامل', subtitle: 'التجربة الشاملة في البحيرة الوردية',
+        features: ['جولة دراجة رباعية', 'قارب على البحيرة الوردية', 'ركوب الخيل', 'جولة الجمل', 'صور تذكارية', 'غداء (اختياري)', 'الاسترخاء في المسبح (اختياري)'],
+      },
     ],
   },
 
@@ -328,6 +340,10 @@ const t = {
       {
         name: '高级套餐', subtitle: '完整体验',
         features: ['越野车骑行 — 1小时', '独木舟骑行 — 30分钟', '骑马或骆驼 — 20分钟', '往返交通（可选）', '酒店午餐（可选）', '泳池休闲（可选）'],
+      },
+      {
+        name: '全天套餐', subtitle: '粉红湖完整体验',
+        features: ['越野车探险', '粉红湖独木舟', '骑马', '骑骆驼', '纪念照片', '午餐（可选）', '泳池休闲（可选）'],
       },
     ],
   },
