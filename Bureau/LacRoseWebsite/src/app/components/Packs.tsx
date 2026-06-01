@@ -79,6 +79,11 @@ export function Packs() {
                     <span className="text-xl text-gray-600">FCFA</span>
                   </div>
                   <p className="text-gray-500 text-sm">{tr.packs.perPerson}</p>
+                  {pack.id === 0 && (
+                    <div className="mt-2 inline-flex items-center gap-1 bg-orange-50 border border-orange-200 text-orange-600 text-xs font-semibold px-3 py-1 rounded-full">
+                      👫 Duo : 35 000 FCFA
+                    </div>
+                  )}
                 </div>
 
                 <div className="space-y-3 mb-8">
